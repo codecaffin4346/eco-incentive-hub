@@ -362,7 +362,11 @@ const Leaderboard = () => {
                       <span className="text-sm font-medium text-eco-gray-dark">Current Rank: #42</span>
                       <span className="text-sm font-medium text-eco-green">Next rank: #41 (1,300 pts)</span>
                     </div>
-                    <Progress value={96} className="h-2 bg-eco-gray-light" indicatorClassName="bg-eco-green" />
+                    <Progress 
+                      value={96} 
+                      className="h-2 bg-eco-gray-light" 
+                      indicatorClassName="bg-eco-green" 
+                    />
                     <div className="mt-1 text-xs text-eco-gray text-right">50 points to go</div>
                   </div>
                   
@@ -371,7 +375,11 @@ const Leaderboard = () => {
                       <span className="text-sm font-medium text-eco-gray-dark">Level Progress: Silver Member</span>
                       <span className="text-sm font-medium text-eco-blue">Gold Member (2,500 pts)</span>
                     </div>
-                    <Progress value={50} className="h-2 bg-eco-gray-light" indicatorClassName="bg-eco-blue" />
+                    <Progress 
+                      value={50} 
+                      className="h-2 bg-eco-gray-light" 
+                      indicatorClassName="bg-eco-blue" 
+                    />
                     <div className="mt-1 text-xs text-eco-gray text-right">1,250 / 2,500 points</div>
                   </div>
                 </div>
