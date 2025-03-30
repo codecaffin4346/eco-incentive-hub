@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Leaf, Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import SignInButton from './SignInButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,9 +50,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <Button className="bg-eco-green hover:bg-eco-green-dark">
-              Sign In
-            </Button>
+            <SignInButton />
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -88,9 +86,7 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="pt-4">
-              <Button className="w-full bg-eco-green hover:bg-eco-green-dark">
-                Sign In
-              </Button>
+              <SignInButton />
             </div>
           </div>
         </div>
