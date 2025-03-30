@@ -63,17 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Eco-friendly custom colors
+				// Updated Eco-friendly custom colors with brighter, lighter green shades
 				eco: {
-					'green-light': '#E0EEC6',
-					'green': '#7DA87B',
-					'green-dark': '#496A48',
+					'green-light': '#EAFFD7',  // Brighter, lighter shade
+					'green': '#8ECA8A',        // Brighter medium green
+					'green-dark': '#5B9E58',   // Slightly lighter dark green
 					'brown': '#A67F5D',
 					'blue': '#93B7BE',
 					'gray-light': '#F1F0FB',
 					'gray': '#8E9196',
 					'gray-dark': '#555555',
-					'bright-green': '#F2FCE2',  // New lighter, brighter green
+					'bright-green': '#F8FFED',  // Even brighter, lighter green
 				},
 			},
 			borderRadius: {
