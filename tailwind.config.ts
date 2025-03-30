@@ -73,6 +73,7 @@ export default {
 					'gray-light': '#F1F0FB',
 					'gray': '#8E9196',
 					'gray-dark': '#555555',
+					'bright-green': '#F2FCE2',  // New lighter, brighter green
 				},
 			},
 			borderRadius: {
