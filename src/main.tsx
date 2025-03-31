@@ -1,4 +1,7 @@
 
+// Import buffer polyfill first
+import { Buffer } from 'buffer';
+
 // Polyfills for Web3Auth and other libraries that expect Node.js globals
 window.global = window;
 global = window;
@@ -6,11 +9,10 @@ global = window;
   env: { DEBUG: undefined },
   version: ''
 };
-(window as any).Buffer = window.Buffer || require('buffer').Buffer;
+(window as any).Buffer = Buffer;
 
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
 createRoot(document.getElementById("root")!).render(<App />);
-
