@@ -1,7 +1,7 @@
 
 // Polyfill for 'global' which is required by Web3Auth
 window.global = window;
-window.process = {
+(window as any).process = {
   env: { DEBUG: undefined },
   version: ''
 };
