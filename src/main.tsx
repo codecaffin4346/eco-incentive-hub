@@ -10,6 +10,7 @@ window.global = window;
 global = window;
 
 // Define process for libraries that expect Node.js process
+// @ts-ignore - We're providing only the minimal process properties needed
 window.process = {
   env: { DEBUG: undefined },
   version: ''
