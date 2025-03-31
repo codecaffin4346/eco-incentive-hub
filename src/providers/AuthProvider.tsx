@@ -2,6 +2,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Web3Auth } from "@web3auth/modal";
 import { CHAIN_NAMESPACES, WEB3AUTH_NETWORK } from "@web3auth/base";
+import { ethers } from "ethers";
 
 // Define types for our context
 type User = {
@@ -58,11 +59,19 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           const userData = await web3auth.getUserInfo();
           const provider = await web3auth.connect();
           
+          // Convert Web3Auth provider to ethers provider and get the address
+          let address = null;
+          if (provider) {
+            const ethersProvider = new ethers.providers.Web3Provider(provider);
+            const signer = ethersProvider.getSigner();
+            address = await signer.getAddress();
+          }
+          
           setUser({
             name: userData.name,
             email: userData.email,
             profileImage: userData.profileImage,
-            walletAddress: provider ? await provider.getAddress() : null,
+            walletAddress: address,
           });
         }
       } catch (error) {
@@ -86,11 +95,19 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const provider = await web3auth.connect();
       const userData = await web3auth.getUserInfo();
       
+      // Convert Web3Auth provider to ethers provider and get the address
+      let address = null;
+      if (provider) {
+        const ethersProvider = new ethers.providers.Web3Provider(provider);
+        const signer = ethersProvider.getSigner();
+        address = await signer.getAddress();
+      }
+      
       setUser({
         name: userData.name,
         email: userData.email,
         profileImage: userData.profileImage,
-        walletAddress: provider ? await provider.getAddress() : null,
+        walletAddress: address,
       });
     } catch (error) {
       console.error("Error logging in:", error);
