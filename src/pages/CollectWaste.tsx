@@ -1,4 +1,3 @@
-
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { MapPin, Calendar, Filter, Users, Clock, ArrowRight, CheckCircle2 } from 'lucide-react';
@@ -23,7 +22,7 @@ const CollectWaste = () => {
       location: 'Sunset Beach, West End',
       participants: 12,
       pointsReward: 250,
-      image: 'https://images.unsplash.com/photo-1618477462146-050d2767eac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80'
+      image: 'https://images.unsplash.com/photo-1618477462146-050d2767eac4?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 'evt-002',
@@ -32,7 +31,7 @@ const CollectWaste = () => {
       location: 'Central City Park, Downtown',
       participants: 8,
       pointsReward: 200,
-      image: 'https://images.unsplash.com/photo-1572732952263-11fdc7be4014?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
+      image: 'https://images.unsplash.com/photo-1572732952263-11fdc7be4014?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 'evt-003',
@@ -41,7 +40,7 @@ const CollectWaste = () => {
       location: 'Green River Bridge, East Side',
       participants: 15,
       pointsReward: 300,
-      image: 'https://images.unsplash.com/photo-1536309203979-51209e5cb567?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80'
+      image: 'https://images.unsplash.com/photo-1536309203979-51209e5cb567?auto=format&fit=crop&w=800&q=80'
     },
   ];
 
@@ -52,7 +51,7 @@ const CollectWaste = () => {
       location: '123 Green St, Eco City',
       reportedDate: '2 hours ago',
       pointsReward: 100,
-      image: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2FzdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+      image: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 'rpt-002',
@@ -60,7 +59,7 @@ const CollectWaste = () => {
       location: 'Forest Trail, North Park',
       reportedDate: '5 hours ago',
       pointsReward: 150,
-      image: 'https://images.unsplash.com/photo-1603394570916-c580bb874c38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80'
+      image: 'https://images.unsplash.com/photo-1603394570916-c580bb874c38?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 'rpt-003',
@@ -68,7 +67,7 @@ const CollectWaste = () => {
       location: 'Riverside Path, East End',
       reportedDate: '1 day ago',
       pointsReward: 80,
-      image: 'https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80'
+      image: 'https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=800&q=80'
     },
   ];
 

@@ -29,7 +29,7 @@ const Index = () => {
                 icon={Camera}
                 linkText="Start Reporting"
                 linkTo="/report-waste"
-                imageUrl="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2FzdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                imageUrl="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=800&q=80"
               />
               <FeatureCard
                 title="Collect Waste"
@@ -37,7 +37,7 @@ const Index = () => {
                 icon={Recycle}
                 linkText="Join Collection"
                 linkTo="/collect-waste"
-                imageUrl="https://images.unsplash.com/photo-1562077772-3bd90403f7f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                imageUrl="https://images.unsplash.com/photo-1562077772-3bd90403f7f1?auto=format&fit=crop&w=800&q=80"
               />
               <FeatureCard
                 title="Track Progress"
@@ -45,7 +45,7 @@ const Index = () => {
                 icon={Users}
                 linkText="View Leaderboard"
                 linkTo="/leaderboard"
-                imageUrl="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                imageUrl="https://images.unsplash.com/photo-1581263518406-9cd15307e7d4?auto=format&fit=crop&w=800&q=80"
               />
               <FeatureCard
                 title="Earn Rewards"
@@ -53,7 +53,7 @@ const Index = () => {
                 icon={Award}
                 linkText="See Rewards"
                 linkTo="/rewards"
-                imageUrl="https://images.unsplash.com/photo-1589666564459-93cdd3ab856a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmV3YXJkfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                imageUrl="https://images.unsplash.com/photo-1589666564459-93cdd3ab856a?auto=format&fit=crop&w=800&q=80"
               />
             </div>
           </div>

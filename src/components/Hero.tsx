@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-eco-green-light/50 to-white py-12 sm:py-24">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519834819476-306c0f546164?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-10"></div>
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">

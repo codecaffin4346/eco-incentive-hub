@@ -22,7 +22,7 @@ const Rewards = () => {
       pointsCost: 250,
       description: 'Get 10% off your next purchase at Eco Grocery. Valid for 30 days.',
       partner: 'Eco Grocery',
-      image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
+      image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
       popular: true
     },
     {
@@ -32,7 +32,7 @@ const Rewards = () => {
       pointsCost: 150,
       description: 'Enjoy a free coffee of your choice at Green Cafe. Valid for 14 days.',
       partner: 'Green Cafe',
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80',
       popular: true
     },
     {
@@ -42,7 +42,7 @@ const Rewards = () => {
       pointsCost: 500,
       description: 'A reusable water bottle made from recycled materials. Includes the Ecovista logo.',
       partner: 'Ecovista',
-      image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+      image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80',
       popular: false
     },
     {
@@ -52,7 +52,7 @@ const Rewards = () => {
       pointsCost: 300,
       description: 'Get 15% off eco-friendly products at Green Living Store. Valid for 30 days.',
       partner: 'Green Living Store',
-      image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+      image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
       popular: false
     },
     {
@@ -62,7 +62,7 @@ const Rewards = () => {
       pointsCost: 1000,
       description: 'We will plant a tree in your name and send you a certificate.',
       partner: 'Forest Foundation',
-      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1813&q=80',
+      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80',
       popular: true
     },
     {
@@ -72,7 +72,7 @@ const Rewards = () => {
       pointsCost: 350,
       description: 'A durable tote bag made from organic cotton. Perfect for shopping.',
       partner: 'Ecovista',
-      image: 'https://images.unsplash.com/photo-1581263518406-9cd15307e7d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+      image: 'https://images.unsplash.com/photo-1581263518406-9cd15307e7d4?auto=format&fit=crop&w=800&q=80',
       popular: false
     },
   ];
